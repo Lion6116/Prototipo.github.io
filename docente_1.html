@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name= viewport content= width=device-width initial-scale=1.0>
+    <title>YourNotes 1.0</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            padding: auto;
+            background-color: rgb(197, 224, 180);
+        }
+        .page {
+            text-transform: capitalize;
+            border: 1px solid #3747d6;
+            background-color: #d6d6ff;
+            width: 1900px;
+        }
+        .titulo {
+            text-align: center;
+            padding: 0px 500px 0px 500px;
+        }
+        .boton {
+            padding: 0px 0px 0px 250px;
+        }
+        #submit {
+            color: #ffffff;
+            font-size: 18px;
+            border: 1px solid #44a4;
+            border-top: 2px solid #b2b2b2;
+            background-color: hsl(130, 78%, 40%);
+            width: 100px;
+            height: 30px;
+        }
+        th {
+            padding: 0px 250px 0px 250px;
+            text-align: center;
+            font-size: 28px;
+        }
+        .textos {
+            padding: 50px;
+        }
+        button{
+            color: #ffffff;
+            font-size: 20px;
+            border: 1px solid #44a4;
+            border-top: 2px solid #b2b2b2;
+            background-color: hsl(130, 78%, 40%);
+            padding: 6px 20px 6px 20px;
+            font-family: 'GidoRegular' ;
+            border-radius: 4px;
+       }
+
+        .contenido {
+
+            float: left;
+            width: 550px;
+            padding: 20px;
+        }
+        .prim {
+            float: right;
+            padding: 0px 150px 0px 0px;
+        }
+        input {
+            padding: 6px;
+            font-size: 20px;
+        }
+        .cuadro {
+
+            padding: 20px;
+            width: 900px;
+            height: 250px;
+            float: left;
+        }
+        .segun {
+            text-align-last: center;
+            width: 900px;
+        }
+        select{
+            font-size: 20px;
+            margin-top: 50px;
+            border-radius: 8px;
+            width: 180px;
+            height: 30px;
+            padding: 2px;
+            float: right;
+        }
+        textarea {
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .opciones {
+            float: right;
+            width: 180px;
+            padding: 20px;
+        }
+        .ulti {
+            float: right;
+            width: 180px;
+            text-align: end;
+            margin: 25px 0px 0px 0px;
+        }
+        .ventana {
+            width: 1500px;
+            height: 550px;
+
+            padding: 50px;
+        }
+        .graficas {
+            width: 350px;
+            height: 200px;
+            margin: 15px 0px 0px 0px;
+        }
+        .img{
+            padding: 14px 10px 0px 14px;
+            }
+    </style>
+</head>
+<body>
+    <div class="page"><img class="img" src="./images/profe2.jpeg" widht="170" height="150" align="left">
+        <p>Tipo de usuario: Docente</p>
+        <table>
+            <tr>
+                <td>Nombre: Maria Cano</td>
+                <td class="titulo">Modulo Consulta de Datos</td>
+                <td class="boton">
+                    <a href="index.html">
+                    <button>Salir </button>
+                  </a> </td>
+            </tr>
+        </table>
+        <p>Código: 0025</p>
+        <p>Asignatura: Ciencias</p>
+    </div><br><br><br>
+    <center>
+    <div class="ventana">
+        <div class="contenido cuadro">
+            <textarea name="observaciones" cols="80" rows="10">Observaciones: </textarea>
+        </div>
+        <div class="contenido opciones">
+            <select name="asignatura">
+                <option value="asignatura">Asignatura</option>
+                <option value="ciencias">Ciencias</option>
+                <option value="matematicas">Matemáticas</option>
+                <option value="ingles">Ingles</option>
+            </select>
+            <select name="curso">
+                <option value="curso">Curso</option>
+                <option value="curso">Once</option>
+                <option value="curso">Quinto</option>
+                <option value="curso">Noveno</option>
+            </select>
+            <select name="aula">
+                <option value="aula">Aula</option>
+                <option value="curso">601</option>
+                <option value="curso">702</option>
+                <option value="curso">801</option>
+                <option value="curso">903</option>
+                <option value="curso">602</option>
+            </select>
+            <select name="alumno">
+                <option value="Alumno">Estudiante </option>
+                <option value="alumno">Ana Puerto Monroy</option>
+                <option value="ciencias">Edwin Pineda Rojas </option>
+                <option value="matematicas">Angel Alberto Ospina</option>
+                <option value="matematicas">Daniel Andrey Malaver </option>
+                <option value="matematicas">Edgar Leonardo Meza </option>
+                <option value="matematicas">Adriana Marcela Padilla </option>
+                <option value="matematicas">Laura ximena Rodrigues </option>
+                <option value="matematicas">Alexandra Games Puerto </option>
+                <option value="matematicas">Arturo Duarte Monrroy </option>
+                <option value="matematicas">Tomas Domingues Perez </option>
+                <option value="ingles">Noemy Cardenas Soto</option>
+            </select>
+            <select name="periodo">
+                <option value="periodo">Periodo</option>
+                <option value="ciencias">Nº 1.</option>
+                <option value="matematicas">Nº 2.</option>
+                <option value="ingles">Nº 3.</option>
+                <option value="ingles">Nº 4.</option>
+            </select>
+        </div>
+        <div class="contenido graficas">
+            <img src="./images/grafico1.png">
+        </div>
+        <div class="contenido graficas">
+            <img src="./images/grafico2.png">
+        </div>
+        <div class="contenido graficas">
+            <img src="./images/grafico3.png">
+        </div>
+        <div class="contenido ulti">
+            <a href="docente_2.html">
+                <button>Ingresar Notas</button>
+              </a>
+        </div>
+    </div>
+    </center>
+</body>
+</html>

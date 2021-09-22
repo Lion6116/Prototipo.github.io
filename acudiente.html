@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name= viewport content= width=device-width initial-scale=1.0>
+    <title>YourNotes 1.0</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            padding: auto;
+            background-color: rgb(197, 224, 180);
+        }
+        .page {
+            text-transform: capitalize;
+            border: 1px solid #3747d6;
+            background-color: #d6d6ff;
+            width: 1900px;
+            height: 180px;
+        }
+        .titulo {
+            text-align: center;
+            padding: 0px 500px 0px 500px;
+        }
+        .boton {
+            padding: 0px 0px 0px 250px;
+        }
+        #submit {
+            color: #ffffff;
+            font-size: 18px;
+            border: 1px solid #44a4;
+            border-top: 2px solid #b2b2b2;
+            background-color: hsl(130, 78%, 40%);
+            width: 100px;
+            height: 30px;
+        }
+        th {
+            padding: 0px 250px 0px 250px;
+            text-align: center;
+            font-size: 28px;
+        }
+        .textos {
+            padding: 50px;
+        }
+        button{
+            color: #ffffff;
+            font-size: 20px;
+            border: 1px solid #44a4;
+            border-top: 2px solid #b2b2b2;
+            background-color: hsl(130, 78%, 40%);
+            padding: 6px 20px 6px 20px;
+            font-family: 'GidoRegular' ;
+            border-radius: 4px;
+        }
+        .contenido {
+
+            float: left;
+            width: 550px;
+            padding: 20px;
+        }
+        input {
+            padding: 6px;
+            font-size: 20px;
+        }
+        .cuadro {
+
+            padding: 20px;
+            width: 900px;
+            height: 250px;
+            float: left;
+        }
+        .segun {
+            text-align-last: center;
+            width: 900px;
+        }
+        select{
+            font-size: 20px;
+            margin-top: 50px;
+            border-radius: 8px;
+            width: 180px;
+            height: 30px;
+            padding: 2px;
+            float: right;
+        }
+        textarea {
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .opciones {
+            float: right;
+            width: 180px;
+            margin: 0px 0px 250px 0px;
+            padding: 20px;
+        }
+        .ulti {
+            float: right;
+            width: 180px;
+            text-align: end;
+            margin: 25px 0px 0px 0px;
+        }
+        .ventana {
+            width: 1500px;
+            height: 550px;
+
+            padding: 50px;
+        }
+        .graficas {
+            width: 350px;
+            height: 200px;
+            margin: 15px 0px 0px 0px;
+        }
+        .superior {
+            width: 405px;
+            height: 135px;
+        }
+        .selectdos {
+            width: 250px;
+        }
+        .dos {
+            margin-left: 220px;
+
+        }
+        .tres {
+            width: 200px;
+            height: 150px;
+            padding: 0px 0px 0px 0px;
+            margin-left: 20px;
+        }
+        .tit {
+
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .img{
+            padding: 14px 0px 0px 14px;
+            }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <img class="img" src="./images/acudiente_copia.jpg" widht="170" height="150" align="left">
+        <div class="contenido superior">
+            <p>Tipo de Usuario: Acudiente</p>
+            <p>Nombre: Daniel Malaver</p>
+            <p>Código: 0026</p>
+        </div>
+        <div class="contenido superior dos">
+            <select class="selectdos" name="Estudiante Matriculado">
+                <option value="asignatura">Estudiante Matriculado</option>
+                <option value="ciencias">Daniel Andres Dias Parra</option>
+                <option value="matematicas">Sonia Dias Parra</option>
+                <option value="ingles">Katerine Dias Parra</option>
+            </select>
+        </div>
+        <div class="contenido superior tres">
+            <img class="img" src="./images/niño.jpg" widht="170" height="150" align="right">
+        </div>
+        <div class="contenido superior">
+            <p>Nombre de Alumno: Carlos Suaza</p>
+            <p>Curso: Cuarto</p>
+            <p>Código: 2451</p>
+            <p>Aula: 407</p>
+        </div>
+    </div>
+    <br>
+    <center>
+    <div class="tit">Modulo Consulta de Estudiante </div>
+    <div class="ventana">
+        <div class="contenido cuadro">
+            <textarea name="observaciones" cols="80" rows="10">Observaciones del Docente: </textarea>
+        </div>
+        <div class="contenido opciones">
+            <select name="asignatura">
+                <option value="asignatura">Asignatura</option>
+                <option value="ciencias">Ciencias</option>
+                <option value="matematicas">Matemáticas</option>
+                <option value="ingles">Ingles</option>
+            </select>
+            <select name="periodo">
+                <option value="periodo">Periodo</option>
+                <option value="primero">Ciencias</option>
+                <option value="matematicas">Matemáticas</option>
+                <option value="ingles">Ingles</option>
+            </select>
+        </div>
+        <div class="contenido graficas">
+            <img src="./images/grafico1.png">
+        </div>
+        <div class="contenido graficas">
+            <img src="./images/grafico2.png">
+        </div>
+        <div class="contenido graficas">
+            <img src="./images/grafico3.png">
+        </div>
+        <div class="contenido ulti">
+            <a href="index.html">
+                <button>Salir</button>
+              </a>
+        </div>
+    </div>
+    </center>
+</body>
+</html>

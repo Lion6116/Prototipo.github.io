@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whid=device-width, initial-scal=1.0">
+    <title>YourNotes 1.0</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(197, 224, 180);
+        }
+        .form-register{
+            width: 400px;
+            background: #24303c;
+            padding: 30px;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 4px;
+            font-family: 'calibri';
+            color: #000;
+            box-shadow: 7px 13px 37px #000;
+        }
+        .form-register h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            background-color: #000;
+            color: rgb(255, 192, 0);
+            text-align: center;
+            padding: 10px;
+        }
+        .control{
+            width: 100%;
+            background: rgb(197, 224, 180)  ;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #1f53c5;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: #000;
+        }
+        .form-register p {
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;
+        }
+
+        .form-register a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .form-register .botons {
+            width: 100%;
+            background: #1f53c5;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;
+        }
+
+        button{
+            width: 100%;
+            background: black;
+            border: none;
+            padding: 12px;
+            color: rgb(255, 192, 0);
+            margin: 16px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <section class="form-register">
+        <h4>Formulario Registro de Usuarios</h4>
+        <select class="control" name="periodo" id="ocho">
+            <option value="">Tipo de Usuario</option>
+            <option value="">Docente</option>
+            <option value="">Alumno</option>
+            <option value="">Acudiente</option>
+
+        </select>
+        <input class="control" type="text" name="nombres" id="nombres" placeholder="Ingrese Nombre">
+        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese Apellido">
+        <input class="control" type="text" name="identificacion" id="identificacion" placeholder="Ingrese numero de identificación">
+        <input class="control" type="text" name="edad" id="edad" placeholder="Ingrese edad">
+        <input class="control" type="text" name="genero" id="genero" placeholder="Ingrese genero">
+        <input class="control" type="text" name="nombre" id="nombre" placeholder="Ingrese nombre acudiente">
+        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese Apellido acudiente">
+        <input class="control" type="phone" name="telefono" id="telefono" placeholder="Ingrese telefono contacto acudiente">
+        <input class="control" type="text" name="curso" id="curso" placeholder="Ingrese curso de ingreso">
+        <input class="control" type="text" name="aula" id="aula" placeholder="Ingrese aula">
+
+
+        <td class="botons"><a href="Formulario.html">
+            <button>Registrar </button>
+          </a> </td>
+        <a href="admin_1.html"><button>Regresar</button></a>
+
+    </section>
+</body>
+</html>
